@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on lanunion&#39;s site</title>
-    <link>http://lanunion.github.io/categories/</link>
+    <link>http://lanunion-editor.github.io/categories/</link>
     <description>Recent content in Categories on lanunion&#39;s site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     
-	<atom:link href="http://lanunion.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://lanunion-editor.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
