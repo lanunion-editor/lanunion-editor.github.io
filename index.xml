@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>主页 on 蓝盟文档页</title>
-    <link>lanunion-editor.github.io/</link>
+    <link>https://lanunion-editor.github.io/</link>
     <description>Recent content in 主页 on 蓝盟文档页</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 06 Aug 2018 01:11:17 +0800</lastBuildDate>
     
-	<atom:link href="lanunion-editor.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://lanunion-editor.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>一、校园卡办理指南</title>
-      <link>lanunion-editor.github.io/network/card/</link>
+      <link>https://lanunion-editor.github.io/network/card/</link>
       <pubDate>Mon, 06 Aug 2018 01:22:55 +0800</pubDate>
       
-      <guid>lanunion-editor.github.io/network/card/</guid>
+      <guid>https://lanunion-editor.github.io/network/card/</guid>
       <description>1 校园卡 本文最后编辑时间是2018.08.05，所以这里的套餐情况只针对18级入学的新生，后面的年级可能参考性不强。 校园卡电信移动联通都在卖，都是合法的，各家政策如下，大家自行查看，仔细对比，认真体会，其中：
  校园网并不是必须的，没人强迫你必须办理（有关校园网的详细信息，请看第二篇） 请注意区分校园网和校园卡两个概念,只有电信的12M宽带才是真正意义上的的校园网（电信卡的流量都不算） 校园卡的流量很多，而且很便宜，大家不要觉得好像和外面买的无限（坑爹）流量卡比起来便宜过头了，像是骗子 只有电信是学校真正意义上和学校签订了合同的正式校园网指定合作伙伴，所以只有电信是学校官方指定网络合作商，学校内部连接外部的网络走的就是电信。  下面分别是电信、移动、联通的主流套餐对比。（电信的宣传单因为目前还没有，用的是这学期进行套餐升级时的对比图，以升级后的为准）
 电信 移动 联通 三家校园卡各有优劣，大家可以根据经济情况和方便程度自行选择，没必要因为校园网的关系非揪着电信不放，也不要单纯相信某些卖卡人片面的宣传觉得便宜就办其他卡！！！
@@ -28,10 +28,10 @@
     
     <item>
       <title>二、校园网</title>
-      <link>lanunion-editor.github.io/network/campus-network/</link>
+      <link>https://lanunion-editor.github.io/network/campus-network/</link>
       <pubDate>Tue, 07 Aug 2018 12:05:29 +0800</pubDate>
       
-      <guid>lanunion-editor.github.io/network/campus-network/</guid>
+      <guid>https://lanunion-editor.github.io/network/campus-network/</guid>
       <description>这部分讲一下超级啰嗦的校园网问题，很长，但是很详细。（指不定好多学长学姐都没弄清楚） 由于这部分很长，所以大家不必一次全部看完，如果只是想了解一下校园网，对办理哪家电话卡提供一定的参照，可以只看完至 关于校园网的套餐和带宽说明（非电信用户的省钱方式） 这个章节就好
  此外，所有的编号项目都可以先忽略掉，等到具体使用校园网的时候再看。VPN对于假期使用内网很有帮助，建议大家先稍作了解并在需要的时候掌握。其他部分可以根据自己的兴趣阅读。 欢迎看完（手动滑稽）。
 目录   展开    总则 校园网及其他方式上网的区别，为什么要用校园网 怎样接入内网 3.1 接入内网之后有什么用 什么是校园网，谁能使用它 4.1 怎么使用校园网 4.2 关于校园网的套餐和带宽说明（非电信用户的省钱方式） 4.3 电信网使用体验 4.4 校园网福利 关于选课 其它 6.1 VPN简介 6.2 手机访问内网 总结    1 总则 1.没人规定你必须办理校园网套餐，如果不需要，完全可以不用校园网 2.电信卡用户被称为“融合套餐”，即 大额流量的手机卡+12M带宽的校园网 二者的融合 3.电信卡流量上网≠校园网≠内网 4.电信卡用户除了单纯的流量以外，还有12M的校园网宽带（电信卡&amp;gt;校园网） 5.校园网同时拥有访问学校内部网络（内网）和访问学校外部网络的权利以及使用学校VPN的使用权利（校园网&amp;gt;内网） 6.非电信用户也可以单独以办理具有流量限制的低价校园网套餐来在特殊的时候使用校园网，享受校园网福利，从而达到省钱的目的 这里的校园网和内网是我个人做出的区分，官方是否认可或者使用这种说法我并不清楚。
