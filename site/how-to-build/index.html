@@ -12,19 +12,19 @@
     <title>工具的选择 :: 蓝盟文档页</title>
     
     
-    <link href="/css/nucleus.css?1536253625" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1536253625" rel="stylesheet">
-    <link href="/css/hybrid.css?1536253625" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1536253625" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1536253625" rel="stylesheet">
-    <link href="/css/auto-complete.css?1536253625" rel="stylesheet">
-    <link href="/css/theme.css?1536253625" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1536253625" rel="stylesheet">
+    <link href="/css/nucleus.css?1536257929" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1536257929" rel="stylesheet">
+    <link href="/css/hybrid.css?1536257929" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1536257929" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1536257929" rel="stylesheet">
+    <link href="/css/auto-complete.css?1536257929" rel="stylesheet">
+    <link href="/css/theme.css?1536257929" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1536257929" rel="stylesheet">
     
-      <link href="/css/theme-blue.css?1536253625" rel="stylesheet">
+      <link href="/css/theme-blue.css?1536257929" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1536253625"></script>
+    <script src="/js/jquery-2.x.min.js?1536257929"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -65,14 +65,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1536253625"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1536253625"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1536257929"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1536257929"></script>
 <script type="text/javascript">
     
         var baseurl = '\/';
     
 </script>
-<script type="text/javascript" src="/js/search.js?1536253625"></script>
+<script type="text/javascript" src="/js/search.js?1536257929"></script>
 
     
   </div>
@@ -350,8 +350,10 @@
 <li><a href="#静态页面与动态页面">静态页面与动态页面</a></li>
 <li><a href="#推荐的工具">推荐的工具</a>
 <ul>
-<li><a href="#hexo">HEXO</a></li>
-<li><a href="#hugo">HUGO</a></li>
+<li><a href="#hexo-https-hexo-io"><a href="https://hexo.io">HEXO</a></a></li>
+<li><a href="#hugo-https-gohugo-io"><a href="https://gohugo.io">HUGO</a></a></li>
+<li><a href="#其他-todo">其他（TODO）</a></li>
+<li><a href="#总结">总结</a></li>
 </ul></li>
 </ul></li>
 </ul></li>
@@ -423,19 +425,70 @@
 
 <p>说了那么多，其实就一句话：我极力推荐使用静态页面服务。那么如何选择适合自己的呢？这里将介绍几个比较常见的静态页面生成工具。</br></p>
 
-<h4 id="hexo">HEXO</h4>
+<h4 id="hexo-https-hexo-io"><a href="https://hexo.io">HEXO</a></h4>
 
 <p>为方便书写接下来一律写作“hexo”。</br>
 <img src="https://blog-1256749229.cos.ap-chengdu.myqcloud.com/lanunion/hexo.png" alt="hexo" />
 <a href="https://hexo.io">hexo</a>是一个基于nodejs的静态页面生成工具。由于其基于node的属性决定了它非常容易运行在许多操作系统上，包括主流的Windows、Mac OS、以及Linux。</br>
 这个工具最大的便利在于其丰富的使用和容易上手的配置文件，从部署到写作到远程部署，短短几分钟你就可以生成一个现代化、漂亮又整洁的博客。它预装了主题模版Landscape使得它在未经优化时就有着良好的表现。（接下来也会以hexo作为建站工具之一进行讲解）</br></p>
 
-<h4 id="hugo">HUGO</h4>
+<h4 id="hugo-https-gohugo-io"><a href="https://gohugo.io">HUGO</a></h4>
 
 <p>为方便书写接下来写作Hugo。</br>
 <img src="https://blog-1256749229.cos.ap-chengdu.myqcloud.com/lanunion/hugo.png" alt="hugo" />
 <a href="https://gohugo.io">hugo</a>是一个基于go语言的工具。如果你对于尝试过后hexo抱怨满满，那不妨来试试这款工具。</br>
-不同于hexo，HUGO的体积非常之小而且文件也很单薄&mdash;&mdash;全部文件只有HUGO这个程序本身（不包含站点文件）。</p>
+不同于hexo，HUGO的体积非常之小而且文件也很单薄&mdash;&mdash;全部文件只有HUGO这个程序本身而已（不包含站点文件）。如果说hexo是大而全，那么HUGO就是典型的小而美。”麻雀虽小五脏俱全”，HUGO在除体积小外功能上并不输给hexo，不过由于其小的特性，HUGO在可拓展性上并没有hexo强。因此HUGO更适合拿来建立说明文档一类或者元素较少的站点。</br></p>
+
+<h4 id="其他-todo">其他（TODO）</h4>
+
+<h4 id="总结">总结</h4>
+
+<p>比起说再多的东西，我更愿意使用图表来说明一些道理，因此，对比如图：</p>
+
+<table>
+<thead>
+<tr>
+<th>生成工具</th>
+<th>官网</th>
+<th align="left">体积</th>
+<th align="left">渲染速度</th>
+<th align="left">可拓展性</th>
+<th>上手难度</th>
+<th>依赖于</th>
+<th>典型站点</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>hexo</td>
+<td><a href="https://hexo.io">https://hexo.io</a></td>
+<td align="left">较大</td>
+<td align="left">中等偏慢</td>
+<td align="left">极强</td>
+<td>极其容易</td>
+<td>nodejs、git</td>
+<td><a href="http://purefkh.xyz">http://purefkh.xyz</a> 、<a href="https://blog.weearc.top">https://blog.weearc.top</a></td>
+</tr>
+
+<tr>
+<td>HUGO</td>
+<td><a href="https://gohugo.io">https://gohugo.io</a></td>
+<td align="left">非常小</td>
+<td align="left">极快</td>
+<td align="left">非常弱</td>
+<td>难度中等</td>
+<td>无依赖</td>
+<td>本站</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+
+<blockquote>
+<p>不得不吐槽一下。。。写了一个多小时（单指表格），原本以为HUGO的渲染器还真的是玄学。。。后来发现是数数数差了，我是不是该回到幼儿园重新念。。。</p>
+</blockquote>
 
 
 <footer class=" footline" >
@@ -621,20 +674,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1536253625"></script>
-    <script src="/js/perfect-scrollbar.min.js?1536253625"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1536253625"></script>
-    <script src="/js/jquery.sticky.js?1536253625"></script>
-    <script src="/js/featherlight.min.js?1536253625"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1536253625"></script>
-    <script src="/js/highlight.pack.js?1536253625"></script>
+    <script src="/js/clipboard.min.js?1536257929"></script>
+    <script src="/js/perfect-scrollbar.min.js?1536257929"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1536257929"></script>
+    <script src="/js/jquery.sticky.js?1536257929"></script>
+    <script src="/js/featherlight.min.js?1536257929"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1536257929"></script>
+    <script src="/js/highlight.pack.js?1536257929"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1536253625"></script>
-    <script src="/js/learn.js?1536253625"></script>
-    <script src="/js/hugo-learn.js?1536253625"></script>
+    <script src="/js/modernizr.custom.71422.js?1536257929"></script>
+    <script src="/js/learn.js?1536257929"></script>
+    <script src="/js/hugo-learn.js?1536257929"></script>
 
-    <link href="/mermaid/mermaid.css?1536253625" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1536253625"></script>
+    <link href="/mermaid/mermaid.css?1536257929" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1536257929"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
